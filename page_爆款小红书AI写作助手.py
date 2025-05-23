@@ -7,7 +7,7 @@ import streamlit as st
 # 侧边栏 布局
 with st.sidebar:  # 侧边栏 布局
     st_api_key = st.text_input("请输入API密钥:", type="password")  # 密码 输入框 # 返回 文字
-    st.markdown("[API获取地址](https://platform.openai.com/docs/overview)")
+    st.markdown("[API获取地址](https://ai.google.dev/gemini-api/docs?hl=zh-cn)")
     st.markdown("---")
     st.markdown("""
     ### 当前模型: 
